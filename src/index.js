@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HeaderBar from './components/header-bar';
+import NavigationBar from './components/navigation-bar';
 import './index.css';
 
 const links = [{
@@ -12,6 +12,6 @@ const links = [{
 }];
 
 ReactDOM.render(
-  <HeaderBar title="Thinkful" links={links} />,
+  <NavigationBar title="Thinkful" links={links} />,
   document.getElementById('root')
 );
